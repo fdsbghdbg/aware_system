@@ -2,6 +2,7 @@
 local maintenance = false
 if maintenance == false then
 	-- proceed normal online servers
+	print(gui.Name or "Gui don't exist")
 	local url2 = "https://raw.githubusercontent.com/AngerminecraftYT/aware_system/main/selectpos.lua" -- loads Online Servers
 	-- digital core
 	function fetch()
