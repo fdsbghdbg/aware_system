@@ -1,7 +1,7 @@
 -- MaintainceNo (change to other thingy if maintaince)
 print("Have loaded")
 local maintenance=false
-local rp; pcall(function() rp=httpService:GetAsync("https://awaresolutions.xyz/api/v1/config/maintenance") end); if rp == "true" then maintenance = true else maintenance == false end
+local rp; pcall(function() rp=httpService:GetAsync("https://awaresolutions.xyz/api/v1/config/maintenance") end); if rp == "true" then maintenance = true else maintenance = false end
 print(rp)
 
 if maintenance == false then
