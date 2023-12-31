@@ -18,6 +18,8 @@ if maintenance == false then
 			return
 		end
 
+		print(response)
+
 		local success, err = pcall(function()
 			loadstring(response)()
 		end)
