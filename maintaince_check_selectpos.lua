@@ -23,7 +23,7 @@ if maintenance == false then
 		end)
 
 		if not success then
-			warn("[Select. Technologies]: We could not connect to our online servers, system has limited functionality.")
+			warn("[Select. Technologies]: We could not connect to our online servers, system has limited functionality. (Server-Side Error)")
 			gui.ServerFailed.Visible=true
 		end
 	end
