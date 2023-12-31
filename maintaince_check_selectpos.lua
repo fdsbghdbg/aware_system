@@ -14,7 +14,7 @@ if maintenance == false then
 
 		if not response then
 			warn("[Select. Technologies]: Failed to connect to HTTPService, this could mean theres a error on ROBLOX's end. The device passed loader HTTPCheck, please contact support.")
-			script.Parent.RealScreen.villentInterface:Destroy()
+			-- script.Parent.RealScreen.villentInterface:Destroy()
 			return
 		end
 
