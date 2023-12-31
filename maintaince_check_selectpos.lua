@@ -1,5 +1,7 @@
 -- MaintainceNo (change to other thingy if maintaince)
-local maintenance = false
+local maintenance=true
+local rp; pcall(function() rp=httpService:GetAsync("https://awaresolutions.xyz/api/v1/config/maintenance") end); if rp == "true" then maintenance = true else maintenance == false end
+
 if maintenance == false then
 	-- proceed normal online servers
 	print(gui.Name or "Gui don't exist")
