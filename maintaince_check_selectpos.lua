@@ -1,4 +1,3 @@
--- MaintainceNo (change to other thingy if maintaince)
 print("Have loaded")
 local maintenance=false
 local httpService = game:GetService("HttpService")
