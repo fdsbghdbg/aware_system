@@ -1,3 +1,4 @@
+-- MaintainceNo (change to other thingy if maintaince)
 local maintenance = false
 if maintenance == false then
 	-- proceed normal online servers
