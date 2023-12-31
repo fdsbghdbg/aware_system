@@ -2,6 +2,8 @@ print("Have loaded")
 local maintenance=false
 --local httpService = game:GetService("HttpService")
 --local gui = "SelectTouchRegisterMain"
+
+-- status of maintaince: MaintainceNo
 local rp; pcall(function() rp=game:GetService("HttpService"):GetAsync("https://awaresolutions.xyz/api/v1/config/maintenance") end); if rp == "true" then maintenance = true else maintenance = false end
 print(rp)
 
