@@ -1,5 +1,5 @@
 -- MaintainceNo (change to other thingy if maintaince)
-local maintenance=true
+local maintenance=false
 local rp; pcall(function() rp=httpService:GetAsync("https://awaresolutions.xyz/api/v1/config/maintenance") end); if rp == "true" then maintenance = true else maintenance == false end
 
 if maintenance == false then
