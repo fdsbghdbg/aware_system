@@ -4,8 +4,8 @@ local maintenance=false
 --local gui = "SelectTouchRegisterMain"
 
 -- status of maintaince: MaintainceNo
-local rp; pcall(function() rp=game:GetService("HttpService"):GetAsync("https://awaresolutions.xyz/api/v1/config/maintenance") end); if rp == "true" then maintenance = true else maintenance = false end
-print(rp)
+--local rp; pcall(function() rp=game:GetService("HttpService"):GetAsync("https://awaresolutions.xyz/api/v1/config/maintenance") end); if rp == "true" then maintenance = true else maintenance = false end
+--print(rp)
 
 if maintenance == false then
 	-- proceed normal online servers
