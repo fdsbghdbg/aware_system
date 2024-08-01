@@ -1,1 +1,1 @@
-Fck of
+loadstring
